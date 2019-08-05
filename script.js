@@ -34,7 +34,7 @@ for(let i = 0; i<=3; i++){
         <img src = ${Houses[i].image}>
             <h5>${Houses[i].location}</h5>
             <h6>${Houses[i].price}</h6>
-         
+         <span><button>Details</button></span>
             </div>`
             
 }
