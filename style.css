@@ -1,21 +1,26 @@
 *{
   /*font-family: 'Poiret One', cursive;*/
   font-family: 'Istok Web', sans-serif;
+
 }
 img{
-    height:60%;
+    height:50%;
     width:100%;
 }
 .text-box{
     text-align:center;
     position: relative;
     color:#e4e4e4;
-    font-size:50px;
     text-align:center;
     top:45%;
     transform:translateY(-50%);
    
 }
+#search-box{
+    width:50%;
+    padding:5px;
+}
+
 .jumbotron{
     height: 70vh;
   background-image: url('NY-Hero.jpg');
@@ -35,4 +40,9 @@ img{
 }
 #searchbar{
     height:50px;
+}
+@media screen and (max-width:576px){
+    .jumbotron{
+        height:50vh;
+    }
 }
