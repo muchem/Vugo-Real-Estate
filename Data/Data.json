@@ -1,73 +1,73 @@
 [
     {
         "image":"../Images/listing-1",
-        "price":"",
+        "price":110000,
         "address":"",
         "description":""
     },
     {
         "image":"../Images/listing-2",
-        "price":"",
+        "price":150000,
         "address":"",
         "description":""
     },
     {
         "image":"../Images/listing-3",
-        "price":"",
+        "price":200000,
         "address":"",
         "description":""
     },
     {
         "image":"../Images/listing-4",
-        "price":"",
+        "price":175000,
         "address":"",
         "description":""
     },
     {
         "image":"../Images/listing-5",
-        "price":"",
+        "price":135000,
         "address":"",
         "description":""
     },
     {
         "image":"../Images/listing-6",
-        "price":"",
+        "price":115000,
         "address":"",
         "description":""
     },
     {
         "image":"../Images/listing-7",
-        "price":"",
+        "price":250000,
         "address":"",
         "description":""
     },
     {
         "image":"../Images/listing-8",
-        "price":"",
+        "price":145000,
         "address":"",
         "description":""
     },
     {
         "image":"../Images/listing-9",
-        "price":"",
+        "price":215000,
         "address":"",
         "description":""
     },
     {
         "image":"../Images/listing-10",
-        "price":"",
+        "price":205000,
         "address":"",
         "description":""
     },
     {
         "image":"../Images/listing-11",
-        "price":"",
+        "price":120000,
         "address":"",
         "description":""
     },
     {
         "image":"../Images/listing-12",
-        "price":"",
+        "price":105000,
         "address":"",
         "description":""
     }
