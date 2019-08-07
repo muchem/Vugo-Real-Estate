@@ -1,74 +1,145 @@
 [
-    {
+    {   "id":1,
         "image":"../Images/listing-1",
         "price":110000,
         "address":"",
-        "description":""
+        "description":"",
+        "details":{
+            "bedrooms":4,
+            "bathrooms":2,
+            "squareFt":2100
+        }
     },
     {
+        "id": 2,
         "image":"../Images/listing-2",
         "price":150000,
         "address":"",
-        "description":""
+        "description":"",
+        "details": {
+            "bedrooms": 6,
+            "bathrooms": 3,
+            "squareFt":2900
+        }
     },
     {
+        "id": 3,
         "image":"../Images/listing-3",
         "price":200000,
         "address":"",
-        "description":""
+        "description":"",
+        "details": {
+            "bedrooms": 7,
+            "bathrooms": 4,
+            "squareFt":32000
+        }
     },
     {
+        "id": 4,
         "image":"../Images/listing-4",
         "price":175000,
         "address":"",
-        "description":""
+        "description":"",
+        "details": {
+            "bedrooms": 8,
+            "bathrooms": 5,
+            "squareFt":3000
+        }
     },
     {
+        "id": 5,
         "image":"../Images/listing-5",
         "price":135000,
         "address":"",
-        "description":""
+        "description":"",
+        "details": {
+            "bedrooms": 5,
+            "bathrooms": 2,
+            "squareFt":2800
+        }
     },
     {
+        "id": 6,
         "image":"../Images/listing-6",
         "price":115000,
         "address":"",
-        "description":""
+        "description":"",
+        "details": {
+            "bedrooms": 4,
+            "bathrooms": 3,
+            "squareFt":2400
+        }
     },
     {
+        "id": 7,
         "image":"../Images/listing-7",
-        "price":250000,
+        "price":350000,
         "address":"",
-        "description":""
+        "description":"",
+        "details": {
+            "bedrooms": 10,
+            "bathrooms": 7,
+            "squareFt":4850
+        }
     },
     {
+        "id": 8,
         "image":"../Images/listing-8",
         "price":145000,
         "address":"",
-        "description":""
+        "description":"",
+        "details": {
+            "bedrooms": 2,
+            "bathrooms": 1,
+            "squareFt":2700
+        }
     },
     {
+        "id": 9,
         "image":"../Images/listing-9",
         "price":215000,
         "address":"",
-        "description":""
+        "description":"",
+        "details": {
+            "bedrooms": 5,
+            "bathrooms": 3,
+            "squareFt":3300
+        }
     },
     {
+        "id": 10,
         "image":"../Images/listing-10",
         "price":205000,
         "address":"",
-        "description":""
+        "description":"",
+        "details": {
+            "bedrooms": 7,
+            "bathrooms": 3,
+            "squareFt":3120
+        }
     },
     {
+        "id": 11,
         "image":"../Images/listing-11",
         "price":120000,
         "address":"",
-        "description":""
+        "description":"",
+        "details": {
+            "bedrooms": 5,
+            "bathrooms": 2,
+            "squareFt":2600
+        }
     },
     {
+        "id": 12,
         "image":"../Images/listing-12",
         "price":105000,
         "address":"",
-        "description":""
+        "description":"",
+        "details": {
+            "bedrooms": 3,
+            "bathrooms": 2,
+            "squareFt":22000
+         }
     }
 ]
