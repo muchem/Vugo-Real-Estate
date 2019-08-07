@@ -14,13 +14,11 @@ img{
     text-align:center;
     top:45%;
     transform:translateY(-50%);
-   
 }
 #search-box{
     width:50%;
     padding:5px;
 }
-
 .jumbotron{
     height: 70vh;
   background-image: url('NY-Hero.jpg');
@@ -37,6 +35,25 @@ img{
     color:#f2f2f2;
     margin:0px;
 
+}
+.Logo{
+    flex:1;
+}
+.links-left{
+    flex:1;
+}
+nav{
+    align-items:center;
+}
+.nav-links{
+    display:flex;
+}
+li{
+    list-style:none;
+    margin-left:10px;
+}
+#search-link{
+    background-color:#5dc55a;
 }
 #searchbar{
     height:50px;
