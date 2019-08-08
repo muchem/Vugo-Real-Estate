@@ -5,15 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel = "stylesheet"href ="main.css">
+
     <title>Document</title>
 </head>
     <body ng-controller = "main-controller">
-      <pre>{{data | json }}</pre>  
+        <div class = "container">
+        <div class = "row">
 
-
-
-
+        <div class = "col-lg-3 col-md-4 col-sm-6" ng-repeat = "list in data">
+            <div class = "img-box">
+                <img ng-src = "{{list.image}}.jpg">
+            </div>
+            <div class = "content">
+      
+                 
+            </div>
+           
+        </div>
+    </div>
+        </div>
     <script src = "Module.js"></script>
     <script src = "Controller.js"></script>
     <script src = "Factory.js"></script>
