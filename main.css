@@ -1,8 +1,8 @@
 body{
-    background-color:#ebebeb;
+    background-color:#faf8f8;
 }
 .img-box{
-    height:80%;
+    height:65%;
     width:100%;
 }
 img{
@@ -11,4 +11,6 @@ img{
 }
 .content{
     background-color:white;
+    padding:10px;
+    box-shadow: 2px 2px 9px 0px #dadada;
 }
