@@ -1,7 +1,7 @@
 [
     {   "id":1,
         "image":"../Images/listing-1",
-        "price":110000,
+        "price":350000,
         "address":"832 Roper St Houston,Tx 77034",
         "description":"",
         "details":{
@@ -13,7 +13,7 @@
     {
         "id": 2,
         "image":"../Images/listing-2",
-        "price":150000,
+        "price":375000,
         "address":"832 Roper St Houston,Tx 77034",
         "description":"",
         "details": {
@@ -25,7 +25,7 @@
     {
         "id": 3,
         "image":"../Images/listing-3",
-        "price":200000,
+        "price":400000,
         "address":"832 Roper St Houston,Tx 77034",
         "description":"",
         "details": {
@@ -37,7 +37,7 @@
     {
         "id": 4,
         "image":"../Images/listing-4",
-        "price":175000,
+        "price":650000,
         "address":"832 Roper St Houston,Tx 77034",
         "description":"",
         "details": {
@@ -49,7 +49,7 @@
     {
         "id": 5,
         "image":"../Images/listing-5",
-        "price":135000,
+        "price":190000,
         "address":"832 Roper St Houston,Tx 77034",
         "description":"",
         "details": {
@@ -61,7 +61,7 @@
     {
         "id": 6,
         "image":"../Images/listing-6",
-        "price":115000,
+        "price":230000,
         "address":"832 Roper St Houston,Tx 77034",
         "description":"",
         "details": {
@@ -73,7 +73,7 @@
     {
         "id": 7,
         "image":"../Images/listing-7",
-        "price":350000,
+        "price":750000,
         "address":"832 Roper St Houston,Tx 77034",
         "description":"",
         "details": {
@@ -85,7 +85,7 @@
     {
         "id": 8,
         "image":"../Images/listing-8",
-        "price":145000,
+        "price":150000,
         "address":"832 Roper St Houston,Tx 77034",
         "description":"",
         "details": {
@@ -97,7 +97,7 @@
     {
         "id": 9,
         "image":"../Images/listing-9",
-        "price":215000,
+        "price":330000,
         "address":"832 Roper St Houston,Tx 77034",
         "description":"",
         "details": {
@@ -109,7 +109,7 @@
     {
         "id": 10,
         "image":"../Images/listing-10",
-        "price":205000,
+        "price":575000,
         "address":"832 Roper St Houston,Tx 77034",
         "description":"",
         "details": {
@@ -121,7 +121,7 @@
     {
         "id": 11,
         "image":"../Images/listing-11",
-        "price":120000,
+        "price":289000,
         "address":"832 Roper St Houston,Tx 77034",
         "description":"",
         "details": {
@@ -133,7 +133,7 @@
     {
         "id": 12,
         "image":"../Images/listing-12",
-        "price":105000,
+        "price":180000,
         "address":"832 Roper St Houston,Tx 77034",
         "description":"",
         "details": {

@@ -5,22 +5,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+     <link href="https://fonts.googleapis.com/css?family=Istok+Web|Poiret+One&display=swap" rel="stylesheet">
      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel = "stylesheet"href ="main.css"> 
 
     <title>Document</title>
 </head>
     <body ng-controller = "main-controller">
+         <nav class="navbar navbar-expand-lg navbar-light bg-light">
+             <a class="navbar-brand" href="index.html">Navbar</a>
+             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                 <span class="navbar-toggler-icon"></span>
+             </button>
+
+             <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                 <ul class="navbar-nav mr-auto">
+                    
+                     
+                     <li class="nav-item">
+                         <a class="nav-link" href="#">Find Property</a>
+                     </li>
+                     <li class="nav-item">
+                         <a class="nav-link" href="#">Sell</a>
+                     </li>
+                     <li class="nav-item">
+                         <a class="nav-link" href="#">Buy</a>
+                     </li>
+                     
+                     <li class="nav-item">
+                         <a class="nav-link" href="#">Find An Agent</a>
+                     </li>
+                     <li class="nav-item">
+                         <a class="nav-link" href="#">Home Loans</a>
+                     </li>
+                     <li class="nav-item">
+                         <a class="nav-link" href="#">Services</a>
+                     </li>
+                     <li class="nav-item">
+                         <a class="nav-link" href="#">About Us</a>
+                     </li>
+                 </ul>
+                 <div class = "left-items">
+                   
+                        
+                         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Log in</button>
+                           <span><button class="btn btn-success my-2 my-sm-0"style = "margin-left:10px;">Sign up</button></span>
+                  
+                 </div>
+             </div>
+        </nav>
         <div class = "container">
+           
         <div class = "row">
 
-        <div class = "col-lg-3 col-md-4 col-sm-6"style = "margin:20px 0 20px 0px;" ng-repeat = "list in data">
+        <div class = "col-lg-3 col-md-4 col-sm-6"style = "margin:15px 0 15px 0px;" ng-repeat = "list in data">
             <div class = "img-box">
                 <img ng-src = "{{list.image}}.jpg">
             </div>
             <div class = "content">
-                <h4>{{list.price | currency }}</h4>
-                <p><strong>{{list.address}}</strong></p>
+                <h5><strong>
+                {{list.price | currency }}</strong></h5>
+                <p>{{list.address}}</p>
                  
             </div>
            

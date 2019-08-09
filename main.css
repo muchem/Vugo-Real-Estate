@@ -1,10 +1,18 @@
+*{      
+    margin:0;
+    padding:0;
+     font-family: 'Istok Web',
+     sans-serif;
+}
 body{
-    background-color:#faf8f8;
+    background-color:#ebebeb;
 }
 .img-box{
     height:65%;
     width:100%;
 }
+
+/*#faf8f8 */
 img{
     height:100%;
      width:100%;
