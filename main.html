@@ -13,7 +13,11 @@
 </head>
     <body ng-controller = "main-controller">
          <nav class="navbar navbar-expand-lg navbar-light bg-light">
-             <a class="navbar-brand" href="index.html">Navbar</a>
+             <a class="navbar-brand" href="#">
+                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSqsQCj_2G5eLQzZGSVh8zQ1byes4oHWPp5An9Ny9S5cqPjVrO"
+                     alt="Logo" style="width:40px;">
+             </a>
+             <a class="navbar-brand" href="index.html">Triliio</a>
              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                  aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                  <span class="navbar-toggler-icon"></span>
@@ -42,37 +46,76 @@
                      <li class="nav-item">
                          <a class="nav-link" href="#">Services</a>
                      </li>
-                     <li class="nav-item">
+                    <li class="nav-item">
                          <a class="nav-link" href="#">About Us</a>
-                     </li>
+                    </li>
                  </ul>
-                 <div class = "left-items">
-                   
-                        
-                         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Log in</button>
-                           <span><button class="btn btn-success my-2 my-sm-0"style = "margin-left:10px;">Sign up</button></span>
+    <div class = "right-items">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Log in</button>
+        <span><button class="btn btn-success my-2 my-sm-0"style = "margin-left:10px;">Sign up</button></span>
                   
-                 </div>
-             </div>
-        </nav>
-        <div class = "container">
-           
+            </div>
+        </div>
+    </nav>
+    <div class = "container-fluid filter-options">
         <div class = "row">
+            <div class = "col-md-4">
+                <select>
+                    <option value="volvo">Volvo</option>
+                    <option value="saab">Saab</option>
+                    <option value="opel">Opel</option>
+                    <option value="audi">Audi</option>
+                </select>
+                <select>
+                    <option value="volvo">Volvo</option>
+                    <option value="saab">Saab</option>
+                    <option value="opel">Opel</option>
+                    <option value="audi">Audi</option>
+                </select>
 
+            </div>
+            <div class="col-md-8">
+                <select>
+                    <option value="volvo">Volvo</option>
+                    <option value="saab">Saab</option>
+                    <option value="opel">Opel</option>
+                    <option value="audi">Audi</option>
+                </select>
+                <select>
+                    <option value="volvo">Volvo</option>
+                    <option value="saab">Saab</option>
+                    <option value="opel">Opel</option>
+                    <option value="audi">Audi</option>
+                </select>
+                <select>
+                    <option value="volvo">Volvo</option>
+                    <option value="saab">Saab</option>
+                    <option value="opel">Opel</option>
+                    <option value="audi">Audi</option>
+                </select>
+                <select>
+                    <option value="volvo">Volvo</option>
+                    <option value="saab">Saab</option>
+                    <option value="opel">Opel</option>
+                    <option value="audi">Audi</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+<div class = "container">  
+    <div class = "row">
         <div class = "col-lg-3 col-md-4 col-sm-6"style = "margin:15px 0 15px 0px;" ng-repeat = "list in data">
             <div class = "img-box">
                 <img ng-src = "{{list.image}}.jpg">
             </div>
-            <div class = "content">
-                <h5><strong>
-                {{list.price | currency }}</strong></h5>
+        <div class = "content">
+            <h5><strong>{{list.price | currency }}</strong></h5>
                 <p>{{list.address}}</p>
-                 
             </div>
-           
         </div>
     </div>
-        </div>
+</div>
     <script src = "Module.js"></script>
     <script src = "Controller.js"></script>
     <script src = "Factory.js"></script>

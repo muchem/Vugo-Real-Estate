@@ -22,3 +22,11 @@ img{
     padding:10px;
     box-shadow: 2px 2px 9px 0px #dadada;
 }
+.filter-options{
+     box-shadow: 2px 2px 9px 0px #dadada;
+     background-color:#f3f3f3;
+     padding:20px;
+}
+nav{
+    border-bottom:solid #e0e0e0 1px;
+}

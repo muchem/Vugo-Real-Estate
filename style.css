@@ -5,6 +5,7 @@ img{
     height:50%;
     width:100%;
 }
+
 .text-box{
     text-align:center;
     position: relative;
@@ -25,7 +26,8 @@ img{
   background-size:100% 100%;
 }
 .header{
-    padding:20px 0 20px 0;
+    padding:50px 0 50px 0;
+    font-size:35px;
 }
 .banner{
     background-color:#35b631;
