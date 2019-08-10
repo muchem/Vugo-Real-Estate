@@ -105,19 +105,36 @@
 
 <div class = "container">  
     <div class = "row">
-        <div class = "col-lg-3 col-md-4 col-sm-6"style = "margin:15px 0 15px 0px;" ng-repeat = "list in data">
+        <div class = "col-lg-3 col-md-4 col-sm-6"style = "margin:50px 0 50px 0px;" ng-repeat = "list in data">
             <div class = "img-box">
                 <img ng-src = "{{list.image}}.jpg">
             </div>
         <div class = "content">
-            <h5><strong>{{list.price | currency }}</strong></h5>
-                <div class = "Details"ng-show = "show == true">
-                <span>Beds {{list.details.bedrooms}}</span>
-                <span>Baths {{list.details.bathrooms}}</span>
-                <span>Sqft {{list.details.squareFt}}</span>
+             <button class="btn btn-xs btn-danger"
+              ng-show="showDetails === true"
+              ng-click="showDetails = !showDetails">
+              Close
+             </button>
+             <div class="initital-info" ng-hide="showDetails === true">
+                 <h5><strong>{{list.price | currency }}</strong></h5>
+                 <p>{{list.address}}</p>
+             </div>
+            
+                <div class="Details" ng-show="showDetails === true">
+                    
+                <span>Beds: {{list.details.bedrooms}}</span>
+                <span>Baths: {{list.details.bathrooms}}</span>
+                <span>Sqft: {{list.details.squareFt}}</span><br>
+                <p>Grerat Place to Live</p>
+                
+                
                 </div>
-                <p ng-hide = "Hide == true">{{list.address}}</p>
-                <button class="btn btn-success"ng-click= "show = !show">Details</button>
+               
+                   <button class="btn btn-xs btn-success"
+                    ng-hide="showDetails === true"
+                    ng-click="showDetails = !showDetails">
+                  
+                   Details</button>
             </div>
         </div>
     </div>
