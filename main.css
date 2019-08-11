@@ -43,10 +43,24 @@ img{
 li{
     list-style:none;
 }
+.pag-bar{
+    margin:40px 0 50px 0;
+}
 #logo{
-    height:200px;
-    width:200px;
+    height:150px;
+    width:150px;
 }
 .footer-txt{
-    font-size:50px;
+    font-size:45px;
+}
+.footer-box{
+    padding:10px 0 50px 0;
+}
+@media screen and (min-width:768px){
+ 
+}
+@media screen and (max-width:576px) {
+    .img-box {
+        height: 85%;
+    }
 }
