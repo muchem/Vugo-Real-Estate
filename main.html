@@ -5,10 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
-     <link href="https://fonts.googleapis.com/css?family=Istok+Web|Poiret+One&display=swap" rel="stylesheet">
-     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Istok+Web|Poiret+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel = "stylesheet"href ="main.css"> 
-
     <title>Document</title>
 </head>
     <body ng-controller = "main-controller">
@@ -90,8 +89,67 @@
                 </select>
 
             </div>
-            <div class="col-md-8">
+            <div class="col-md-2">
+                  <h6>Bedrooms</h6>
+                  <select name="minPrice" id="minPrice" class="form-control">
+                      <option value="100000">0</option>
+                      <option value="200000">1</option>
+                      <option value="300000">2</option>
+                      <option value="400000">3</option>
+                      <option value="500000">4</option>
+                      <option value="600000">5</option>
+                      <option value="700000">6</option>
+                      <option value="800000">7</option>
+                      <option value="900000">8</option>
+                      <option value="1000000">9</option>
+                    <option value="1000000">10+</option>
+                  </select>
                 
+            </div>
+            <div class="col-md-2">
+                   <h6>Bathrooms</h6>
+                   <select name="minPrice" id="minPrice" class="form-control">
+                       <option value="100000">0</option>
+                       <option value="200000">1</option>
+                       <option value="300000">2</option>
+                       <option value="400000">3</option>
+                       <option value="500000">4</option>
+                       <option value="600000">5</option>
+                       <option value="700000">6</option>
+                       <option value="800000">7</option>
+                       <option value="900000">8</option>
+                       <option value="1000000">9</option>
+                       <option value="1000000">10+</option>
+                   </select>
+            </div>
+            <div class = "col-sm-1">
+                <h6>Sqft</h6>
+                 <select name="minPrice" id="minPrice" class="form-control">
+                     <option value="100000">900+</option>
+                     <option value="200000">1,000+</option>
+                     <option value="300000">1,500+</option>
+                     <option value="400000">2,000+</option>
+                     <option value="500000">2,500+</option>
+                     <option value="600000">3,000+</option>
+                     <option value="700000">3,500</option>
+                     <option value="800000">4,000</option>
+                     <option value="900000">4,500</option>
+                     <option value="1000000">5,000</option>
+                     <option value="1000000">6,000+</option>
+                 </select>
+            </div>
+            <div class="col-sm-2">
+                <h6>Date Posted</h6>
+                <select name="minPrice" id="minPrice" class="form-control">
+                    <option value="100000">Newest First</option>
+                     <option value="100000">Oldest First</option>
+                    <option value="200000">Best Match</option>
+                  
+                </select>
+            </div>
+            <div class = "col-sm-3">
+                <h6>Search by Location</h6>
+    <input class="form-control mr-sm-2" type="search" placeholder="Enter Address,Neighborhood or ZIP" >
             </div>
         </div>
     </div>
