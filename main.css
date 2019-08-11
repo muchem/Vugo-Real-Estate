@@ -40,3 +40,10 @@ img{
 .top-nav{
     border-bottom:solid #e0e0e0 1px;
 }
+li{
+    list-style:none;
+}
+#logo{
+    height:200px;
+    width:200px;
+}
