@@ -9,7 +9,7 @@ img{
 .text-box{
     text-align:center;
     position: relative;
-    color:#e4e4e4;
+    color:#f2f2f2;
     text-align:center;
     top:45%;
     transform:translateY(-50%);
@@ -27,7 +27,7 @@ img{
 }
 .header{
     padding:50px 0 50px 0;
-    font-size:35px;
+    font-size:2em;
 }
 .banner{
     background-color:#35b631;
