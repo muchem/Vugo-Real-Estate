@@ -107,7 +107,7 @@
         <div class = "row">
             <div class = "col-md-1">
              <h6>Min Price</h6>
-               <select name="minPrice" id="minPrice"  class="form-control">
+               <select name="minPrice" id="minPrice" ng-model="price.min" class="form-control">
                    <option value="100000">$100,000</option>
                    <option value="200000">$200,000</option>
                    <option value="300000">$300,000</option>
@@ -122,7 +122,7 @@
             </div>
             <div class = 'col-md-1'>
                 <h6>Max Price</h6>
-                <select name="minPrice" id="minPrice"  class="form-control">
+                <select name="minPrice" id="minPrice" ng-model="price.max" class="form-control">
                     <option value="100000">$100,000</option>
                     <option value="200000">$200,000</option>
                     <option value="300000">$300,000</option>
@@ -203,7 +203,7 @@
 
 <div class = "container">  
     <div class = "row">
-        <div class = "col-lg-3 col-md-4 col-sm-6"style = "margin:50px 0 50px 0px;" ng-repeat = "list in data">
+        <div class = "col-lg-3 col-md-4 col-sm-6"style = "margin:50px 0 50px 0px;" ng-repeat = "list in data | PriceFilter:price">
             <div class = 'card-box'>
             <div class = "img-box">
                 <img ng-src = "{{list.image}}.jpg">
