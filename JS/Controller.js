@@ -4,6 +4,7 @@ App.controller('main-controller',function($scope, listingFactory){
        min:100,
        max:1000000
    }
+
    listingFactory.getListing().then(function(responce){
        $scope.data = responce.data;
    },function(error){
