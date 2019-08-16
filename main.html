@@ -97,12 +97,10 @@
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                 </div>
-
             </div>
         </div>
     </div>
-
-    </div>
+</div>
     <div class = "container-fluid filter-options">
         <div class = "row">
             <div class = "col-md-1">
@@ -120,9 +118,9 @@
                    <option value="1000000">$1,000,000</option>
                </select>
             </div>
-            <div class = 'col-md-1'>
-                <h6>Max Price</h6>
-                <select name="minPrice" id="minPrice" ng-model="price.max" class="form-control">
+    <div class = 'col-md-1'>
+        <h6>Max Price</h6>
+        <select name="minPrice" id="minPrice" ng-model="price.max" class="form-control">
                     <option value="100000">$100,000</option>
                     <option value="200000">$200,000</option>
                     <option value="300000">$300,000</option>
@@ -136,7 +134,7 @@
                 </select>
 
             </div>
-            <div class="col-md-2">
+            <div class="col-lg-2">
                   <h6>Bedrooms</h6>
                   <select name="minPrice" id="minPrice" class="form-control"ng-model="bedrooms">
                       <option value="0">0</option>
@@ -153,7 +151,7 @@
                   </select>
                 
             </div>
-            <div class="col-md-2">
+            <div class="col-lg-2">
                    <h6>Bathrooms</h6>
                    <select name="minPrice" id="minPrice" class="form-control">
                        <option value="100000">0</option>
@@ -169,7 +167,7 @@
                        <option value="1000000">10+</option>
                    </select>
             </div>
-            <div class = "col-sm-1">
+            <div class = "col-lg-1">
                 <h6>Sqft</h6>
                  <select name="minPrice" id="minPrice" class="form-control">
                      <option value="100000">900+</option>
@@ -185,7 +183,7 @@
                      <option value="1000000">6,000+</option>
                  </select>
             </div>
-            <div class="col-sm-2">
+            <div class="col-lg-2">
                 <h6>Date Posted</h6>
                 <select name="minPrice" id="minPrice" class="form-control">
                     <option value="Newest First">Newest First</option>
@@ -194,7 +192,7 @@
                   
                 </select>
             </div>
-            <div class = "col-sm-3">
+            <div class = "col-lg-3">
                 <h6>Search by Location</h6>
     <input class="form-control mr-sm-2" type="search" placeholder="Enter Address,Neighborhood or ZIP" >
             </div>
@@ -219,22 +217,17 @@
                  <p>{{list.address}}</p>
              </div>
             
-                <div class="Details" ng-show="showDetails === true">
-                    
-                <span>Beds: {{list.details.bedrooms}}</span>
-                <span>Baths: {{list.details.bathrooms}}</span>
-                <span>Sqft: {{list.details.squareFt}}</span><br>
-                <p>Grerat Place to Live</p>
-                
-                
+    <div class="Details" ng-show="showDetails === true">  
+        <span>Beds: {{list.details.bedrooms}}</span>
+        <span>Baths: {{list.details.bathrooms}}</span>
+        <span>Sqft: {{list.details.squareFt}}</span><br>
+        <p>Great Place to Live</p>
+            </div>
+            <button class="btn btn-xs btn-success"
+            ng-hide="showDetails === true"
+            ng-click="showDetails = !showDetails">
+            Details</button>
                 </div>
-               
-                   <button class="btn btn-xs btn-success"
-                    ng-hide="showDetails === true"
-                    ng-click="showDetails = !showDetails">
-                  
-                   Details</button>
-                   </div>
             </div>
         </div>
     </div>
