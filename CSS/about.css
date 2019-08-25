@@ -1,6 +1,6 @@
 *{
     margin:0px;
-    padding:0pxl
+    padding:0px;
 }
 .text-box{
      text-align:center;
@@ -21,7 +21,7 @@
     padding:30px;
 }
 .leader-intro{
-    padding:30px 50px 30px 50px;
+    padding:30px;
 }
 .icon-box img{
     width:150px;
@@ -42,8 +42,33 @@
 .bnt-box{
     text-align:center;
 }
+section{
+    background-color:#f8f4f4;
+}
+.section-text{
+     position: relative;
+
+     top:45%;
+     transform:translateY(-50%);
+}
+.meet{
+    margin:30px;
+}
+.section-img-box{
+  
+}
+.section-img-box img{
+    width: 75%;
+    height: 50%;
+}
+.section-row-1{
+    padding: 30px 0 20px 30px;
+}
 @media screen and (max-width:576px){
     .row2{
         display:none;
+    }
+    .section-text{
+        text-align:center;
     }
 }
