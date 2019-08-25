@@ -194,14 +194,14 @@
             </div>
             <div class = "col-lg-3">
                 <h6>Search by Location</h6>
-    <input class="form-control mr-sm-2" type="search" placeholder="Enter Address,Neighborhood or ZIP" >
+    <input class="form-control mr-sm-2" type="search" placeholder="Enter Address,Neighborhood or ZIP" ng-model = "address">
             </div>
         </div>
     </div>
 
 <div class = "container">  
     <div class = "row">
-        <div class = "col-lg-3 col-md-4 col-sm-6"style = "margin:50px 0 50px 0px;" ng-repeat = "list in data | PriceFilter:price">
+        <div class = "col-lg-3 col-md-4 col-sm-6"style = "margin:50px 0 50px 0px;" ng-repeat = "list in data | PriceFilter:price | filter:address">
             <div class = 'card-box'>
             <div class = "img-box">
                 <img ng-src = "{{list.image}}.jpg">

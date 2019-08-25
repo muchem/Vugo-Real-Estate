@@ -2,7 +2,7 @@
     {   "id":1,
         "image":"../Images/listing-1",
         "price":350000,
-        "address":"832 Roper St Houston,Tx 77034",
+        "address":"832 Roper St Houston,Texas 77034",
         "description":"",
         "details":{
             "bedrooms":4,
@@ -14,7 +14,7 @@
         "id": 2,
         "image":"../Images/listing-2",
         "price":375000,
-        "address": "8817 Sand Pine Dr, Navarre, FL, 32566",
+        "address": "8817 Sand Pine Dr, Navarre, Florida, 32566",
         "description":"",
         "details": {
             "bedrooms": 6,
@@ -26,7 +26,7 @@
         "id": 3,
         "image":"../Images/listing-3",
         "price":400000,
-        "address": "1835 Magic Dr #48, Pamplico, SC, 29583",
+        "address": "1835 Magic Dr Pamplico, South Carolina, 29583",
         "description":"",
         "details": {
             "bedrooms": 7,
@@ -38,7 +38,7 @@
         "id": 4,
         "image":"../Images/listing-4",
         "price":650000,
-        "address": "1841 E Hammett Rd, Hart, MI, 49420",
+        "address": "1841 E Hammett Rd, Hart, Missouri, 49420",
         "description":"",
         "details": {
             "bedrooms": 8,
@@ -50,7 +50,7 @@
         "id": 5,
         "image":"../Images/listing-5",
         "price":190000,
-        "address": "1606 Somerset Way, Van Buren, AR, 72956",
+        "address": "1606 Somerset Way, Van Buren, Arizona, 72956",
         "description":"",
         "details": {
             "bedrooms": 5,
@@ -62,7 +62,7 @@
         "id": 6,
         "image":"../Images/listing-6",
         "price":230000,
-        "address": "410 Woodward Rd, Trussville, AL, 35173",
+        "address": "410 Woodward Rd, Trussville, Alaska, 35173",
         "description":"",
         "details": {
             "bedrooms": 4,
@@ -74,7 +74,7 @@
         "id": 7,
         "image":"../Images/listing-7",
         "price":750000,
-        "address": "9136 County Rd #C, Bryan, OH, 43506",
+        "address": "9136 County Rd #C, Bryan, Ohio, 43506",
         "description":"",
         "details": {
             "bedrooms": 10,
@@ -86,7 +86,7 @@
         "id": 8,
         "image":"../Images/listing-8",
         "price":150000,
-        "address": "103 Nottoway Turn, Yorktown, VA, 23693",
+        "address": "103 Nottoway Turn, Yorktown, Virgina, 23693",
         "description":"",
         "details": {
             "bedrooms": 2,
@@ -98,7 +98,7 @@
         "id": 9,
         "image":"../Images/listing-9",
         "price":330000,
-        "address": "302 Bridge Pl, West Sacramento, CA, 95691",
+        "address": "302 Bridge Pl, West Sacramento, California, 95691",
         "description":"",
         "details": {
             "bedrooms": 5,
@@ -110,7 +110,7 @@
         "id": 10,
         "image":"../Images/listing-10",
         "price":575000,
-        "address": "126 Holland St N, North, SC, 29112",
+        "address": "126 Holland St N, North, South Carolina, 29112",
         "description":"",
         "details": {
             "bedrooms": 7,
@@ -122,7 +122,7 @@
         "id": 11,
         "image":"../Images/listing-11",
         "price":289000,
-        "address": "200 Hughes Dr, Poteau, OK, 74953",
+        "address": "200 Hughes Dr, Poteau, Oklahoma, 74953",
         "description":"",
         "details": {
             "bedrooms": 5,
@@ -134,7 +134,7 @@
         "id": 12,
         "image":"../Images/listing-12",
         "price":180000,
-        "address":"832 Roper St Houston,Tx 77034",
+        "address":"832 Roper St Houston,Texas 77034",
         "description":"",
         "details": {
             "bedrooms": 3,
