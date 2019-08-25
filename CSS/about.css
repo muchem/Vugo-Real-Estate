@@ -36,6 +36,12 @@
        height: 250px;
        width:250px;
 }
+.row2{
+    padding-top:30px;
+}
+.bnt-box{
+    text-align:center;
+}
 @media screen and (max-width:576px){
     .row2{
         display:none;
