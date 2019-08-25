@@ -6,12 +6,10 @@ App.factory('listingFactory',function($http) {
             getListing:getListing
         }
 
-})
-App.factory('agentFactory',function(){
-    function getAgents(){
-        return $http.get('Data/Agents.json');
-    }
-        return{
-            getAgents:getAgents
-        }
-})
+});
+
+
+
+
+
+

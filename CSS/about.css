@@ -1,0 +1,38 @@
+*{
+    margin:0px;
+    padding:0pxl
+}
+.text-box{
+     text-align:center;
+     position: relative;
+     color:#f2f2f2;
+     text-align:center;
+     top:45%;
+     transform:translateY(-50%);
+}
+.jumbotron{
+     height: 80vh;
+     background-color:black;
+     background-repeat:no-repeat;
+     background-position:center;
+     background-size:100% 100%;
+}
+.about-intro{
+    padding:30px;
+}
+.leader-intro{
+    padding:30px 50px 30px 50px;
+}
+.icon-box img{
+    width:150px;
+    height:150px;
+}
+.leader-img-box{
+    text-align:center;
+    
+}
+.leader-img-box img{
+    padding-bottom:10px;
+       height: 250px;
+       width:250px;
+}
