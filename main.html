@@ -169,18 +169,18 @@
             </div>
             <div class = "col-lg-1">
                 <h6>Sqft</h6>
-                 <select name="minPrice" id="minPrice" class="form-control">
-                     <option value="100000">900+</option>
-                     <option value="200000">1,000+</option>
-                     <option value="300000">1,500+</option>
-                     <option value="400000">2,000+</option>
-                     <option value="500000">2,500+</option>
-                     <option value="600000">3,000+</option>
-                     <option value="700000">3,500</option>
-                     <option value="800000">4,000</option>
-                     <option value="900000">4,500</option>
-                     <option value="1000000">5,000</option>
-                     <option value="1000000">6,000+</option>
+                 <select name="size" id="minPrice" class="form-control">
+                     <option value="900">900+</option>
+                     <option value="1000">1,000+</option>
+                     <option value="1500">1,500+</option>
+                     <option value="2000">2,000+</option>
+                     <option value="2500">2,500+</option>
+                     <option value="3000">3,000+</option>
+                     <option value="3500">3,500</option>
+                     <option value="4000">4,000</option>
+                     <option value="45000">4,500</option>
+                     <option value="5000">5,000</option>
+                     <option value="6000">6,000+</option>
                  </select>
             </div>
             <div class="col-lg-2">
@@ -201,7 +201,7 @@
 
 <div class = "container">  
     <div class = "row">
-        <div class = "col-lg-3 col-md-4 col-sm-6"style = "margin:50px 0 50px 0px;" ng-repeat = "list in data | PriceFilter:price | filter:address">
+        <div class = "col-lg-3 col-md-4 col-sm-6"style = "margin:50px 0 50px 0px;" ng-repeat = "list in data |  filter:address">
             <div class = 'card-box'>
             <div class = "img-box">
                 <img ng-src = "{{list.image}}.jpg">
