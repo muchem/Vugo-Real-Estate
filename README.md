@@ -32,3 +32,10 @@ Built With
 
 
 ## Acknowledgments
+Design and Functionality inspiration
+
+Apartments
+https://www.apartments.com/
+
+Zillow
+https://www.zillow.com/
