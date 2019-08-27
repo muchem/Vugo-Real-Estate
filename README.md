@@ -12,7 +12,7 @@ git bash
 ## Installing
  1.Clone the repo
  
- git clone 
+ git clone  https://github.com/muchem/Real-estate-concept.git
  
  2.Open Project Folder
  
@@ -26,7 +26,7 @@ Built With
 
 
 ## Contributors
-
+ Melissa Uchem
 
 ## License
 
