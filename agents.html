@@ -55,11 +55,10 @@
     <div class = "row">
    <div class="col-lg-3 col-md-4 col-sm-6"ng-repeat = "agent in agents">
        <div class = "card-box text-center">
-      <div class = "img-box">
-           <img ng-src="https://d2787ndpv5cwhz.cloudfront.net/c1aed1b0173a289f20a9b3f42bf55eec7af64328/300x300.jpg"class = "agent-img"
+           <img ng-src="{{agent.photo}}" class="agent-img"
             alt = "Agent-image">
-   </div>
        <h5>{{agent.name}}</h5>
+       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. In aut qui quod non magnam laborum quaerat quasi nemo ducimus saepe.</p>
        </div>
         </div>
     </div>
