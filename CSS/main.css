@@ -45,6 +45,10 @@ img{
 li{
     list-style:none;
 }
+ul {
+    margin: 0px;
+    padding: 0px;
+}
 .pag-bar{
     margin:40px 0 50px 0;
 }

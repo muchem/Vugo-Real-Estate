@@ -5,7 +5,10 @@
 li {
     list-style: none;
 }
-
+ul {
+    margin: 0px;
+    padding: 0px;
+}
 .Logo {
     flex: 1;
 }
@@ -36,12 +39,12 @@ li {
     transform:translateY(-50%);
 }
 .loco-search{
-    padding:10px;
+    padding:17px;
      height:30px;
      width:30%;
 }
 .jumbotron{
-    height:80vh;
+    height:85vh;
     background-image:url('../Images/agent-Hero\ \(1\).jpg');
     background-repeat:no-repeat;
     background-size:cover;
