@@ -24,13 +24,36 @@ li {
     transition: 0.3s;
     widows: 100%;
     height: 100%;
-   
+ }
+.card-box:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    z-index: 2;
+}
+.agent-intro{
+    position: relative;
+    top:50%;
+    transform:translateY(-50%);
+}
+.loco-search{
+    padding:10px;
+     height:30px;
+     width:30%;
+}
+.jumbotron{
+    height:80vh;
+    background-image:url('../Images/agent-Hero\ \(1\).jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    color:#f2f2f2;
 }
 .agent-img{
     border:solid 4px #30b60f;
     border-radius: 50%;
     height:110px;
     width:110px;
+    margin-top:10px;
 
    
 }
