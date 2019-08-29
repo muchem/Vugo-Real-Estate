@@ -43,6 +43,13 @@ ul {
      height:30px;
      width:30%;
 }
+.bnt-go{
+    border:solid #30b60f 2px;
+    border-radius: 5px;
+    padding:6px;
+    background-color: #23aa4b;
+    color:#f3f3f3;
+}
 .jumbotron{
     height:85vh;
     background-image:url('../Images/agent-Hero\ \(1\).jpg');
@@ -62,4 +69,9 @@ ul {
 }
 .pagination-bar{
     margin:50px;
+}
+@media screen and (max-width:576px){
+    .loco-search{
+        width:60vw;
+    }
 }
