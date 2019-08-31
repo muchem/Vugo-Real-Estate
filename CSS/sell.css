@@ -12,3 +12,17 @@
 .jumbotron{
     height:85vh;
 }
+.link-bnt{
+    border:solid 1px #4744db;
+    padding:10px;
+}
+.link-bnt:hover{
+    text-decoration:none;
+}
+.box{
+      box-shadow: 2px 2px 9px 0px #dadada;
+      padding:20px 10px 20px 10px;
+}
+.col-md-8 .box{
+margin-right:5px;
+}

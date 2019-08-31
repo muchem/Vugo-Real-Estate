@@ -58,12 +58,20 @@
   </div>
 </div>
 <div class = "container">
-    <h2 style = "padding:30px 0 30px 0">Find a Agent</h2>
+    <h2 style = "padding:30px 0 10px 0">Find a Agent</h2>
+    <div class = "row">
+        <div class = "col-md-3">
      <h6>Location</h6>
-     <input type='text' placeholder="Enter agent name" class="loco-search" ng-model="search.address">
-    <h6>Name</h6>
-    <input type='text' placeholder="Enter agent name" class="locco-search"ng-model = "search.name">
+     <input type='text' placeholder="Neighborhood/City/Zip" class="find-search">
     </div>
+    <div class="col-md-3">
+     <h6>Name</h6>
+
+    <input type='text' placeholder="Enter agent name" class = "find-search" ng-model = "search.name">
+    </div>
+</div>
+    </div>
+    <div class = "container">
     <div class = "row">
    <div class="col-lg-3 col-md-4 col-sm-6"ng-repeat = "agent in agents | filter:search:strict">
        <div class = "card-box text-center">
@@ -73,14 +81,15 @@
        <h6><small>Real Estate Agent</small></h6>
        <div class = 'contact-icon-box'>
        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSV6Gn38jQ1Dhc-myW-8LYjkC_CXRhlriXy63r8zC_kbFdnDA7f"
-           title="Make a Call"height="25px" width="25px">
+           title="Send a Email"height="25px" width="25px">
          <img src=
              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8jcka2tjP4IwetLozn3a_s_Sp4pgak6f0Th2qx0tuIaHAQO3y"height="22px"
-             width="22px"title = "Send a Email">
+             width="22px"title = "Make a Call">
        </div>
     </div>
         </div>
     </div>
+</div>
 </div>
 <nav aria-label="Page navigation" class="pagination-bar">
     <ul class="pagination pagination-md justify-content-center pag-bar">
