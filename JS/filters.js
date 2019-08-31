@@ -11,3 +11,4 @@ App.filter('PriceFilter',function(){
     return output;
     }
 });
+ 
