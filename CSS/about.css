@@ -21,8 +21,8 @@
 .about-intro{
     padding:30px;
 }
-.leader-intro{
-    padding:30px;
+.leader-intro-text{
+    padding:50px 10px 20px 10px;
 }
 .icon-box img{
     width:150px;
@@ -54,6 +54,9 @@ section{
 .meet{
     margin:30px;
 }
+.leader-intro{
+    padding:50px 10px 20px 10px;
+}
 .section-img-box{
   
 }
@@ -63,11 +66,10 @@ section{
     padding-bottom:15px;
 }
 .section-row-1{
-    padding: 30px 0 50px 30px;
+    padding: 50px 0 50px 30px;
+    margin:30px 0 50px 0;
 }
-.row2{
-    padding-bottom:30px;
-}
+
 li{
     list-style:none;
 }
@@ -75,7 +77,9 @@ li{
     height: 150px;
     width: 150px;
 }
-
+footer{
+    margin-top:30px;
+}
 .footer-txt {
     font-size: 45px;
 }
