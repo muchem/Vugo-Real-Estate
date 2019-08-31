@@ -38,6 +38,9 @@ ul {
     top:50%;
     transform:translateY(-50%);
 }
+.input-boxes{
+    display:flex;
+}
 .loco-search{
     padding:17px;
      height:30px;
@@ -69,6 +72,9 @@ ul {
 }
 .pagination-bar{
     margin:50px;
+}
+.contact-icon-box{
+    padding-bottom:15px;
 }
 @media screen and (max-width:576px){
     .loco-search{

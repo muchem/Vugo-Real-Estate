@@ -24,7 +24,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
               <li class="nav-item">
-                  <a class="nav-link" href="#">Sell</a>
+                  <a class="nav-link" href="sell.html">Sell</a>
               </li>
               <li class="nav-item">
                   <a class="nav-link" href="main.html">Buy</a>
@@ -58,15 +58,27 @@
   </div>
 </div>
 <div class = "container">
-    <h2 class = "text-center" style = "padding:30px 0 30px 0">Meet Our Top Agents</h2>
+    <h2 style = "padding:30px 0 30px 0">Find a Agent</h2>
+     <h6>Location</h6>
+     <input type='text' placeholder="Enter agent name" class="loco-search" ng-model="search.address">
+    <h6>Name</h6>
+    <input type='text' placeholder="Enter agent name" class="locco-search"ng-model = "search.name">
+    </div>
     <div class = "row">
-   <div class="col-lg-3 col-md-4 col-sm-6"ng-repeat = "agent in agents">
+   <div class="col-lg-3 col-md-4 col-sm-6"ng-repeat = "agent in agents | filter:search:strict">
        <div class = "card-box text-center">
            <img ng-src="{{agent.photo}}" class="agent-img"
             alt = "Agent-image">
        <h5 style = "margin:0px">{{agent.name}}</h5>
        <h6><small>Real Estate Agent</small></h6>
+       <div class = 'contact-icon-box'>
+       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSV6Gn38jQ1Dhc-myW-8LYjkC_CXRhlriXy63r8zC_kbFdnDA7f"
+           title="Make a Call"height="25px" width="25px">
+         <img src=
+             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8jcka2tjP4IwetLozn3a_s_Sp4pgak6f0Th2qx0tuIaHAQO3y"height="22px"
+             width="22px"title = "Send a Email">
        </div>
+    </div>
         </div>
     </div>
 </div>
