@@ -1,6 +1,7 @@
 *{
     margin:0px;
     padding:0px;
+    font-family:sans-serif;
 }
 .text-box{
      text-align:center;
@@ -34,8 +35,8 @@
 }
 .leader-img-box img{
     padding-bottom:10px;
-       height: 250px;
-       width:250px;
+    height: 250px;
+    width:250px;
 }
 .row2{
     padding-top:30px;

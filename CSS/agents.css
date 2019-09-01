@@ -1,6 +1,7 @@
 *{
     padding:0px;
     margin:0px;
+    font-family:sans-serif;
 }
 li {
     list-style: none;
@@ -63,15 +64,14 @@ ul {
 }
 .address-txt{
     padding: 0 20px 0 20px;
+    color:#796c6c;
 }
 .agent-img{
     border:solid 4px #30b60f;
     border-radius: 50%;
     height:110px;
     width:110px;
-    margin-top:10px;
-
-   
+    margin-top:10px; 
 }
 .find-search{
     width:100%;
