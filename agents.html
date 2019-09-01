@@ -62,7 +62,7 @@
     <div class = "row">
         <div class = "col-md-3">
      <h6>Location</h6>
-     <input type='text' placeholder="Neighborhood/City/Zip" class="find-search">
+     <input type='text' placeholder="Neighborhood/City/Zip" class="find-search"ng-model = "search.address">
     </div>
     <div class="col-md-3">
      <h6>Name</h6>
@@ -79,6 +79,7 @@
             alt = "Agent-image">
        <h5 style = "margin:0px">{{agent.name}}</h5>
        <h6><small>Real Estate Agent</small></h6>
+       <p class = 'address-txt'><small>{{agent.address}}</small></p>
        <div class = 'contact-icon-box'>
        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSV6Gn38jQ1Dhc-myW-8LYjkC_CXRhlriXy63r8zC_kbFdnDA7f"
            title="Send a Email"height="25px" width="25px">
