@@ -90,3 +90,66 @@ App.directive('navBar',function(){
 `
     }
 })
+
+App.directive('footerNav',function(){
+    return{
+        template: `<footer>
+     <div class="container">
+         <div class="row">
+             <div class="col-md-3 col-6">
+                 <ul>
+                     <h6><strong>REAL ESTATE</strong></h6>
+                     <li>Browse all homes</li>
+                     <li>Albuquerque real estate</li>
+                     <li>Atlanta real estate</li>
+                     <li>Austin real estate</li>
+                     <li>Baltimore real estate</li>
+                     <li><a href="#">More</a> </li>
+                 </ul>
+             </div>
+             <div class="col-md-3 col-6">
+                 <ul>
+                     <li><strong>RENTALS</strong></li>
+                     <li>Rental Buildings</li>
+                     <li> Atlanta apartments for rent</li>
+                     <li>Austin apartments for rent </li>
+                     <li>Baltimore apartments for rent</li>
+                     <li>Boston apartments for rent</li>
+                     <li><a href="#">More</a> </li>
+                 </ul>
+             </div>
+             <div class="col-md-3 col-6">
+                 <ul>
+                     <li><strong>MORTGAGE RATES</strong></li>
+                     <li>Current mortgage rates</li>
+                     <li>Alaska mortgage rates</li>
+                     <li>Alabama mortgage rates</li>
+                     <li>Arkansas mortgage rates</li>
+                     <li>Arizona mortgage rates</li>
+                     <li><a href="#">More</a> </li>
+                 </ul>
+             </div>
+             <div class="col-md-3 col-6">
+                 <ul>
+                     <li><strong>BROWSE HOMES</strong></li>
+                     <li>California</li>
+                     <li>Texas</li>
+                     <li>New York</li>
+                     <li>Florida</li>
+                     <li>Illinois</li>
+                     <li><a href="#">More</a> </li>
+                 </ul>
+             </div>
+         </div>
+         <div class="footer-box text-center">
+             <img src="https://images.vexels.com/media/users/3/157257/isolated/preview/d3bd73477873ff05a127e686ee688f65-black-and-white-house-icon-by-vexels.png"
+                 id="logo">
+             <span class="footer-txt">
+                 Trillio
+             </span>
+             <p>Copyright © https://www.Trillio.com. All Rights Reserved</p>
+         </div>
+</footer>`
+    }
+})
+
