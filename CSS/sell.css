@@ -12,7 +12,7 @@
 }
 .jumbotron{
     height:85vh;
-     background-image: url('../Images/Hero-House.jpg');
+     background-image: url('../Images/sell-house.jpg');
      background-repeat:no-repeat;
      background-position:center;
      background-size:cover;
@@ -31,6 +31,9 @@
 }
 .sale-command{
     padding:50px;
+}
+.address-box {
+    padding:5px;
 }
 .sell-box{
     padding:50px;
