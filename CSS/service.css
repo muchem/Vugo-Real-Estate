@@ -4,13 +4,19 @@
     font-family:sans-serif;
 }
 .jumbotron{
-    height:50vh;
+    height:75vh;
+        background-image:url('https://i.pinimg.com/originals/07/00/b5/0700b59b0a405697a65f09fb414e75fe.jpg');
+        background-repeat:no-repeat;
+        background-size:cover;
+        background-position:center;
+        color:#f2f2f2;
 }
 .hero-txt{
        position: relative;
        top:50%;
        left:50%;
        transform:translate(-50%,-50%);
+       text-align: center;
 }
 
 .service-list li{
@@ -22,7 +28,7 @@
  }
 .service-list li:hover{
     cursor: pointer;
-    color:#797979;
+    color:#593aca;
 }
 .service-tl{
     border-bottom:solid 1px #b9b9b9;
