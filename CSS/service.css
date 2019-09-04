@@ -3,6 +3,9 @@
     padding:0px;
     font-family:sans-serif;
 }
+.jumbotron{
+    height:50vh;
+}
 .hero-txt{
        position: relative;
        top:50%;
@@ -11,9 +14,12 @@
 }
 
 .service-list li{
-    padding:10px 0 10px 0px;
+    padding:20px 0 20px 0px;
 
 }
+ .service-list {
+     padding-top: 20px;
+ }
 .service-list li:hover{
     cursor: pointer;
     color:#797979;
@@ -21,6 +27,34 @@
 .service-tl{
     border-bottom:solid 1px #b9b9b9;
 }
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.Logo {
+    flex: 1;
+}
+
+#logo {
+    height: 150px;
+    width: 150px;
+}
+
+.footer-txt {
+    font-size: 45px;
+}
+
+.footer-box {
+    padding: 10px 0 50px 0;
+}
+ .footer-list{
+     list-style:none;
+ } 
+ footer{
+    margin-top:25px;
+ }
 @media screen and (max-width:576px){
     .service-list {
         padding-left: 10px;
