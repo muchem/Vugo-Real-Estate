@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel = "stylesheet"href = "./CSS/service.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+     <nav class="navbar navbar-expand-lg navbar-light bg-light top-nav">
+         <a class="navbar-brand" href="#">
+             <img src="https://images.vexels.com/media/users/3/157257/isolated/preview/d3bd73477873ff05a127e686ee688f65-black-and-white-house-icon-by-vexels.png"
+                 alt="Logo" style="width:40px;">
+         </a>
+         <a class="navbar-brand" href="index.html">Triliio</a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+             <span class="navbar-toggler-icon"></span>
+         </button>
+
+         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+             <ul class="navbar-nav mr-auto">
+                 <li class="nav-item active">
+                     <a class="nav-link" href="#">Sell</a>
+                 </li>
+                 <li class="nav-item">
+                     <a class="nav-link" href="main.html">Buy</a>
+                 </li>
+
+                 <li class="nav-item">
+                     <a class="nav-link" href="agents.html">Find An Agent</a>
+                 </li>
+                 <li class="nav-item">
+                     <a class="nav-link" href="home-loan.html">Home Loans</a>
+                 </li>
+                 <li class="nav-item active">
+                     <a class="nav-link" href="service.html">Services</a>
+                 </li>
+                 <li class="nav-item">
+                     <a class="nav-link" href="about.html">About Us</a>
+                 </li>
+             </ul>
+             <div class="right-items">
+                 <button class="btn btn-outline-success my-2 my-sm-0" type="submit" data-toggle="modal"
+                     data-target="#loginModal">Log in</button>
+
+                 <span><button class="btn btn-success my-2 my-sm-0" style="margin-left:10px;" data-toggle="modal"
+                         data-target="#SignUpModal">Sign
+                         up</button></span>
+
+             </div>
+         </div>
+     </nav>
+     <!-- The Modal -->
+     <div class="modal fade" id="loginModal">
+         <div class="modal-dialog modal-sm">
+             <div class="modal-content">
+
+                 <!-- Modal Header -->
+                 <div class="modal-header">
+                     <h4 class="modal-title">Welcome to Triliio</h4>
+                     <button type="button" class="close" data-dismiss="modal">&times;</button>
+                 </div>
+
+                 <!-- Modal body -->
+                 <div class="modal-body">
+                     <h5><strong>Log in</strong></h5>
+                     <form>
+                         <div class="form-group">
+                             <label for="Email1">Email address</label>
+                             <input type="email" class="form-control" id="Email1" aria-describedby="emailHelp"
+                                 placeholder="Enter email">
+
+                         </div>
+                         <div class="form-group">
+                             <label for="Password">Password</label>
+                             <input type="password" class="form-control" id="Password" placeholder="Password">
+                         </div>
+                         <div class="form-check">
+                             <input type="checkbox" class="form-check-input" id="Check">
+                             <label class="form-check-label" for="Check">Remember Me</label>
+                         </div>
+                         <button type="submit" class="btn btn-success">Log in</button>
+                     </form>
+                 </div>
+
+                 <!-- Modal footer -->
+                 <div class="modal-footer">
+                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                 </div>
+             </div>
+         </div>
+     </div>
+</div>
+     <!-- The Modal -->
+     <div class="modal fade" id="SignUpModal">
+         <div class="modal-dialog modal-md">
+             <div class="modal-content">
+
+                 <!-- Modal Header -->
+                 <div class="modal-header">
+                     <h4 class="modal-title">Create a Account</h4>
+                     <button type="button" class="close" data-dismiss="modal">&times;</button>
+                 </div>
+
+                 <!-- Modal body -->
+                 <div class="modal-body">
+                     <h5><strong>Sign up</strong></h5>
+                     <form>
+                         <div class="form-group">
+                             <label for="first-name">First Name</label>
+                             <input type="text" class="form-control" id="first-name" placeholder="First Name *">
+                         </div>
+                         <div class="form-group">
+                             <label for="Password">Last Name</label>
+                             <input type="text" class="form-control" id="last-name" placeholder="Last Name *">
+                         </div>
+                         <div class="form-group">
+                             <label for="create-email">Email</label>
+                             <input type="text" class="form-control" id="last-name" placeholder="Email Address*">
+                         </div>
+                         <div class="form-check">
+                             <input type="checkbox" class="form-check-input" id="Check">
+                             <label class="form-check-label" for="Check"><small>Receive email alerts when new rental
+                                     are
+                                     available</small></label>
+                         </div>
+                         <button type="submit" class="btn btn-success">Sign Up</button>
+                     </form>
+                 </div>
+
+                 <!-- Modal footer -->
+                 <div class="modal-footer">
+                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                 </div>
+             </div>
+         </div>
+     </div>
+</div>
+    <div class = "jumbotron">
+        <div class = "hero-txt">
+            <h1>SERVICES</h1>
+            <p>CBRE services clients across property type
+            industry sectors.</p>
+        </div>
+    </div>
+<div class = "container">
+    <div class="service-tl text-center">
+        <h3>Services for Investors</h3>
+    </div>
+        <div class = "row">
+            <div class = "col-sm-4">
+                <ul class = "service-list">
+                <li>Appraisal Management</li>
+                <li>Construction Risk Management</li>
+                <li>Corporate Capital Markets</li>
+                <li>Debt & Loan Valuation</li>
+                <li>Debt & Structured Finance</li>
+                </ul>
+            </div>
+             <div class="col-sm-4">
+                <ul class="service-list">
+                    <li>Energy & Sustainability</li>
+                    <li>Federal Government Leases</li>
+                    <li>Going Concern Valuation</li>
+                    <li>Host</li>
+                    <li>Investment Accounting & Reporting Solutions</li>
+                </ul>
+             </div>
+              <div class="col-sm-4">
+                 <ul class="service-list">
+                     <li>Investment Banking</li>
+                     <li>Leasing & Advisoryt</li>
+                     <li>Litigation Support</li>
+                     <li>Loan Portfolio Sales</li>
+                     <li>Loan Servicing</li>
+                 </ul>
+              </div>
+        </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+</body>
+</html>

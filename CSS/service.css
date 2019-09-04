@@ -1,0 +1,28 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family:sans-serif;
+}
+.hero-txt{
+       position: relative;
+       top:50%;
+       left:50%;
+       transform:translate(-50%,-50%);
+}
+
+.service-list li{
+    padding:10px 0 10px 0px;
+
+}
+.service-list li:hover{
+    cursor: pointer;
+    color:#797979;
+}
+.service-tl{
+    border-bottom:solid 1px #b9b9b9;
+}
+@media screen and (max-width:576px){
+    .service-list {
+        padding-left: 10px;
+    }
+}
