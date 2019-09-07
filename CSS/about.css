@@ -67,7 +67,7 @@ section{
     padding-bottom:15px;
 }
 .section-row-1{
-    padding: 50px 0 50px 30px;
+    padding: 50px 30px 50px 30px;
     margin:30px 0 50px 0;
 }
 
@@ -87,6 +87,12 @@ footer{
 
 .footer-box {
     padding: 10px 0 50px 0;
+}
+@media screen and (max-width:768px){
+    .leader-img-box img {
+        height: 100px;
+        width: 100px;
+    }
 }
 @media screen and (max-width:576px){
     .section-text{
