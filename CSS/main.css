@@ -33,6 +33,7 @@ img{
     background-color:white;
     padding:10px;
     box-shadow: 2px 2px 9px 0px #dadada;
+    border-bottom:3px solid #229f00;
 }
 .filter-options{
      box-shadow: 2px 2px 9px 0px #dadada;
@@ -68,6 +69,11 @@ ul {
  
 }
 @media screen and (max-width:576px) {
+    .card-box:hover {
+        transform: scale(1.0);
+        cursor: pointer;
+        z-index: 2;
+    }
     .img-box {
         height: 85%;
     }

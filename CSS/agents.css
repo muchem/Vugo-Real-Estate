@@ -88,4 +88,8 @@ ul {
     .loco-search{
         width:60vw;
     }
+    .card-box:hover {
+        transform: scale(1.0);
+  
+    }
 }
