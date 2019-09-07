@@ -6,6 +6,11 @@
 .jumbotron{
     height:50vh;
 }
+.hero-txt{
+         position: relative;
+         top:45%;
+         transform:translateY(-50%);
+}
 .card-box{
     padding:30px;
     margin:10px 0px 20px;
@@ -18,7 +23,9 @@ ul {
     margin: 0px;
     padding: 0px;
 }
-
+#calc-img{
+    margin-bottom:15px;
+}
 .Logo {
     flex: 1;
 }
