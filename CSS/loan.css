@@ -4,7 +4,12 @@
     font-family: sans-serif;
 }
 .jumbotron{
-    height:50vh;
+    height:60vh;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    color:#f2f2f2;
+    background-image:url('../Images/loan-hero.jpg');
 }
 .hero-txt{
         text-align: center;
