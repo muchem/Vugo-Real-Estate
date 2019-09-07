@@ -31,6 +31,7 @@
 }
 .leader-img-box{
     text-align:center;
+
     
 }
 .leader-img-box img{
@@ -88,14 +89,30 @@ footer{
 .footer-box {
     padding: 10px 0 50px 0;
 }
+@media screen and (max-width:1024px) {
+    .leader-img-box img {
+        height: 150px;
+        width: 150px;
+    }
+}
+@media screen and (max-width:992px) {
+   .leader-img-box img {
+       height: 130px;
+       width: 130px;
+   }
+}
 @media screen and (max-width:768px){
     .leader-img-box img {
-        height: 100px;
-        width: 100px;
+        height: 150px;
+        width: 150px;
     }
 }
 @media screen and (max-width:576px){
     .section-text{
         text-align:center;
+    }
+    .leader-img-box img {
+        height: 250px;
+        width: 250px;
     }
 }
