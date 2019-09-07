@@ -6,9 +6,10 @@
 .jumbotron{
     height:50vh;
 }
-.card{
+.card-box{
     padding:30px;
-    margin:10px 0 20px 0;
+    margin:10px 0px 20px;
+    box-shadow: 2px 2px 9px 0px #dadada;
 }
 li{
     list-style:none;
