@@ -7,6 +7,7 @@
     height:50vh;
 }
 .hero-txt{
+        text-align: center;
          position: relative;
          top:45%;
          transform:translateY(-50%);
@@ -15,6 +16,16 @@
     padding:30px;
     margin:10px 0px 20px;
     box-shadow: 2px 2px 9px 0px #dadada;
+}
+.card-link{
+     border: #b3b3b3 solid 1px;
+     border-radius: 3px;
+     padding:10px;
+}
+.card-link:hover{
+    text-decoration:none;
+     border: #0e57dd solid 1px;
+     transition: 1s;
 }
 li{
     list-style:none;
