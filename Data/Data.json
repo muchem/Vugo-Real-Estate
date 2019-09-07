@@ -26,7 +26,7 @@
         "id": 3,
         "image":"../Images/listing-3",
         "price":400000,
-        "address": "1835 Magic Dr Pamplico, South Carolina, 29583",
+        "address": "1835 Dr Pamplico, South Carolina, 29583",
         "description":"",
         "details": {
             "bedrooms": 7,
@@ -86,7 +86,7 @@
         "id": 8,
         "image":"../Images/listing-8",
         "price":150000,
-        "address": "103 Nottoway Turn, Yorktown, Virgina, 23693",
+        "address": "103 Nottoway,Yorktown, Virgina, 23693",
         "description":"",
         "details": {
             "bedrooms": 2,
@@ -98,7 +98,7 @@
         "id": 9,
         "image":"../Images/listing-9",
         "price":330000,
-        "address": "302 Bridge Pl, West Sacramento, California, 95691",
+        "address": "302 Bridge Pl,Sacramento, California, 95691",
         "description":"",
         "details": {
             "bedrooms": 5,
