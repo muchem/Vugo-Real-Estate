@@ -5,16 +5,17 @@
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 ## Prerequisites
-What things you need to install the software and how to install them
+install git to enable git command in terminal
 
-git bash
 
-## Installing
+https://git-scm.com/downloads
+
+## Running The Application on Your Local Machine
  1.Clone the repo
  
  git clone  https://github.com/muchem/Real-estate-concept.git
  
- 2.Open Project Folder
+ 2.Open Repo Folder in a Text Editor or Ide
  
  3.Open index.html in your favorite browser
  
@@ -27,9 +28,6 @@ Built With
 
 ## Contributors
  Melissa Uchem
-
-## License
-
 
 ## Acknowledgments
 Design and Functionality inspiration
