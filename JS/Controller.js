@@ -4,6 +4,7 @@ App.controller('main-controller',function($scope, listingFactory,agentFactory){
        min: 0,
        max:10000000
    }
+   $scope.squareFt = 900;
    listingFactory.getListing().then(function(responce){
        $scope.data = responce.data;
    },function(error){

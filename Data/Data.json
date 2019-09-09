@@ -31,7 +31,7 @@
         "details": {
             "bedrooms": 7,
             "bathrooms": 4,
-            "squareFt":32000
+            "squareFt":3200
         }
     },
     {
@@ -139,7 +139,7 @@
         "details": {
             "bedrooms": 3,
             "bathrooms": 2,
-            "squareFt":22000
+            "squareFt":2200
          }
     }
 ]
