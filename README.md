@@ -12,7 +12,7 @@ https://git-scm.com/downloads
 
 ## Running The Application on Your Local Machine
  1.Clone the repo
- ![Git clone terminal image]('https://opensource.com/sites/default/files/u128651/git_guide12.png')
+ ![Git clone terminal image](https://opensource.com/sites/default/files/u128651/git_guide12.png)
  git clone  https://github.com/muchem/Real-estate-concept.git
  
  2.Open Repo Folder in a Text Editor or Ide
