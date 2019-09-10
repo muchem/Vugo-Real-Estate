@@ -5,7 +5,7 @@
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 ## Prerequisites
-install git to enable git command in terminal
+install git to enable git command in terminal.
 
 
 https://git-scm.com/downloads
