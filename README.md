@@ -28,10 +28,16 @@ https://git-scm.com/downloads
 Enjoy :)
 
 Built With
+
+
  *Html5
+ 
  *Css3
+ 
  *Bootstrap-4
+ 
  *Javascript
+ 
  *AngularJS
  
 
