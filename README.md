@@ -1,4 +1,4 @@
-# Vugo
+# Vugo Real Estate Company
 
 
 ## Getting Started
