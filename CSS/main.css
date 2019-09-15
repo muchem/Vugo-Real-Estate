@@ -1,9 +1,10 @@
 *{      
-    margin:0;
-    padding:0;
+    margin:0px;
+    padding:0px;
      font-family: 'Istok Web',
      sans-serif;
 }
+
 body{
     background-color:#ebebeb;
 }
@@ -16,7 +17,7 @@ h6{
 }
 .card-box{
     transition:0.3s;
-    widows: 100%;
+    width: 100%;
     height:100%;
  
 }
@@ -64,9 +65,6 @@ ul {
 }
 .footer-box{
     padding:10px 0 50px 0;
-}
-@media screen and (min-width:768px){
- 
 }
 @media screen and (max-width:576px) {
     .card-box:hover {

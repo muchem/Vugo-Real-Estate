@@ -61,14 +61,25 @@
                  </select>
             </div>
             <div class="col-lg-2">
-                <h6>Date Posted</h6>
-                <select name="dateposted" id="date" class="form-control">
-                    <option value="Newest First">Newest First</option>
-                     <option value="Oldest Fist">Oldest First</option>
-                    <option value="Best Match">Best Match</option>
-                  
+                <h6>Bedrooms</h6>
+                <select name="bedrooms" id="beds" class="form-control"ng-model="bedrooms">
+                    <option value="2">2+</option>
+                     <option value="4">4+</option>
+                     <option value = "6">6+</option>
+                     <option value = "8">8+</option>
+                    <option value="10">10+</option>
                 </select>
             </div>
+    <div class="col-lg-2">
+        <h6>Bathrooms</h6>
+                <select name="bathrooms" id="baths" class="form-control"ng-model = "bathrooms">
+                <option value="2">2+</option>
+                <option value="4">4+</option>
+                <option value="6">6+</option>
+                <option value="8">8+</option>
+                <option value="10">10+</option>
+                </select>
+        </div>
             <div class = "col-lg-3">
                 <h6>Filter by Location</h6>
     <input class="form-control mr-sm-2" type="search" placeholder="Enter Address,Neighborhood or ZIP" ng-model = "search.address">
@@ -79,7 +90,7 @@
 <div class = "container">  
     <div class = "row">
         <div class="col-lg-3 col-md-4 col-sm-6" style="margin:50px 0 50px 0px;"
-            ng-repeat="list in data | filter:search:strict | SearchFilter:price:squareFt">
+            ng-repeat="list in data | filter:search:strict | SearchFilter:price:squareFt:bedrooms:bathrooms">
             <div class = 'card-box'>
             <div class = "img-box">
                 <img ng-src = "{{list.image}}.jpg">
@@ -94,7 +105,6 @@
                  <h5><strong>{{list.price | currency }}</strong></h5>
                  <p>{{list.address}}</p>
              </div>
-            
     <div class="Details" ng-show="showDetails === true">  
         <span>Beds: {{list.details.bedrooms}}</span>
         <span>Baths: {{list.details.bathrooms}}</span>
