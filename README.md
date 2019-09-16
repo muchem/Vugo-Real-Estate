@@ -1,11 +1,11 @@
-# Real-estate-concept
+# Vugo Real Estate Company
 
 
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 ## Prerequisites
-install git to enable git command in terminal
+install git to enable git command in terminal.
 
 
 https://git-scm.com/downloads
@@ -28,10 +28,16 @@ https://git-scm.com/downloads
 Enjoy :)
 
 Built With
+
+
  *Html5
+ 
  *Css3
+ 
  *Bootstrap-4
+ 
  *Javascript
+ 
  *AngularJS
  
 
