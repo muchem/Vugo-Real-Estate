@@ -66,13 +66,15 @@ ul {
 .footer-box{
     padding:10px 0 50px 0;
 }
-@media screen and (max-width:576px) {
+@media screen and (max-width:1024px){
     .card-box:hover {
         transform: scale(1.0);
         cursor: pointer;
         z-index: 2;
     }
+}
+@media screen and (max-width:576px) {
     .img-box {
-        height: 85%;
+        height: 75%;
     }
 }
