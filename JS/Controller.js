@@ -5,6 +5,8 @@ App.controller('main-controller',function($scope, listingFactory,agentFactory){
        max:10000000
    }
    $scope.squareFt = 900;
+   $scope.bedrooms = 2;
+    $scope.bathrooms = 1;
    listingFactory.getListing().then(function(responce){
        $scope.data = responce.data;
    },function(error){
