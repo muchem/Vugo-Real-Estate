@@ -19,7 +19,7 @@ https://git-scm.com/downloads
  ![Git clone terminal image](https://opensource.com/sites/default/files/u128651/git_guide12.png)
 
  
- 2.Open Repo Folder in a Text Editor or Ide
+ 2.Open Repo Folder in a Text Editor or Ide.
  
  3.Open index.html in your favorite browser
  
