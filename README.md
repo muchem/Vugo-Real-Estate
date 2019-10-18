@@ -17,7 +17,7 @@ https://git-scm.com/downloads
   
   
  ![Git clone terminal image](https://opensource.com/sites/default/files/u128651/git_guide12.png)
-
+ ![Git clone terminal image]()
  
  2.Open Repo Folder in a Text Editor or Ide.
  
