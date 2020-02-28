@@ -1,5 +1,6 @@
 # Vugo Real Estate Company
 
+Vugo is a real estate marketplace where users can Filter through the latest home and agent listings.The User experience is developed with Html,Css,and Bootstrap. While The front end interface directives and funtionality are pioneered by the AngularJs library using the MVC software design pattern.
 
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
